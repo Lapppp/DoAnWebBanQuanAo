@@ -1,0 +1,80 @@
+/* login.css */
+
+/* Tùy chỉnh font và màu sắc */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Màu nền */
+  }
+  
+  .card {
+    background-color: #ffffff; /* Màu nền của card */
+    border: 1px solid #dee2e6; /* Viền của card */
+  }
+  
+  /* Cân chỉnh khoảng cách và căn lề */
+  .card-body {
+    padding: 2rem;  /* Khoảng cách nội dung trong card */
+  }
+  
+  .form-outline {
+    margin-bottom: 1.5rem; /* Khoảng cách giữa các ô input */
+  }
+  
+  .btn-warning {
+    background-color: #ffc107; /* Màu nền của nút Đăng Nhập */
+    border-color: #ffc107; /* Màu viền của nút Đăng Nhập */
+  }
+  
+  /* Chăm sóc cho điện thoại di động */
+  @media (max-width: 576px) {
+    .card {
+      margin-top: 1rem; /* Khoảng cách từ card đến top */
+    }
+  }
+  
+  /* Thêm vào file login.css */
+
+.google-facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .google-facebook .col-md-4 {
+    margin-bottom: 10px; /* Để tạo khoảng cách giữa cặp nút */
+  }
+/* Thêm vào file login.css */
+
+.google-facebook {
+  display: flex;
+  justify-content: center; /* Canh giữa theo chiều ngang */
+}
+
+.google-facebook .col-md-4 {
+  margin-right: 10px; /* Để tạo khoảng cách giữa cặp nút */
+}
+
+.google-facebook .col-md-4:last-child {
+  margin-right: 0; /* Loại bỏ margin phải của nút cuối cùng */
+}
+/* Thêm vào file login.css */
+.hanldeRegister   {
+    
+        margin-left: 35%;
+        margin-right: auto;
+      
+}
+  
+ .text-warning
+ {
+    font-weight: bold;
+ }
+  /* Thêm vào file login.css hoặc tạo một file mới nếu cần */
+.enlarge-input {
+    height: 50px; /* Đặt chiều cao theo mong muốn */
+  }
+  .mb-4
+  {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }

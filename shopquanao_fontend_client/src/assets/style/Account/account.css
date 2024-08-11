@@ -1,0 +1,115 @@
+.layout {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10% 5%;
+  }
+  
+  .layoutLeft {
+    margin-left: 10px;
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .layoutRight {
+    flex: 0 0 70%;
+  }
+  
+  .h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFA500;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .layoutLeftInfo div {
+    width: 400px;
+    margin: 5px;
+    height: 35px;
+    display: flex;
+    
+  }
+  .layoutLeftInfo div:hover {
+    color: #FFD700; /* Màu chữ vàng */
+    background-color:#FEEEEA; /* Màu nền hồng nhạt */
+ }
+ 
+  .iconAccount
+  {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .iconAccount img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+ 
+  }
+  
+  .iconAccount p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .iconAccount a {
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+  }
+  
+  .layoutLeft {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .layoutLeft .iconAccount .Logout {
+    color:white; /* Đặt màu vàng cho chữ "Đăng Xuất" */
+    width: 280px; /* Đặt chiều rộng là 100% */
+    text-align: center; /* Căn giữa theo chiều ngang */
+    display: block; /* Chuyển sang dạng block để chiếm toàn bộ chiều rộng */
+    margin-top: 10px; /* Tăng khoảng cách trên cùng */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định cho link */
+    font-weight: bold; /* Tăng độ đậm */
+    background-color: #FFA500;
+  }
+  .nameAccount
+  {
+    text-align: center;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: -100px;
+  }
+  
+  .info-item {
+    padding: 10px   ;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+ 
+  }
+  
+  .hover:hover {
+   color: #FFA500;
+   background:#FEEEEA ;
+   cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #FFA500; /* Màu vàng cam, có thể điều chỉnh theo sở thích của bạn */
+  }
+  
+  span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Màu chữ, có thể điều chỉnh theo sở thích của bạn */
+  }
+  

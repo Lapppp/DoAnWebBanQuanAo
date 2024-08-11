@@ -1,0 +1,61 @@
+/* Đảm bảo rằng DropdownButton không bị che bởi các phần khác */
+.feature-box.last .content {
+    position: relative;
+}
+
+/* Đặt chiều cao và khoảng cách của menu dropdown */
+.feature-box.last .dropdown-menu {
+    top: 50px; /* điều chỉnh khoảng cách dropdown từ nút user icon */
+    width: 200px; /* điều chỉnh chiều rộng dropdown */
+    border-radius: 8px; /* Thêm border-radius cho góc của dropdown */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+}
+
+/* Định dạng các mục trong dropdown menu */
+.feature-box.last .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Hiển thị biểu tượng và văn bản cùng một dòng */
+.feature-box.last .dropdown-item svg {
+    margin-right: 10px;
+}
+
+/* Định dạng phần thông tin người dùng */
+.feature-box.last .user-info {
+    padding: 10px;
+}
+
+/* Hiệu ứng màu nền khi hover mục trong dropdown */
+.feature-box.last .dropdown-item:hover {
+    background-color: #e9ecef; /* Màu nền khi hover */
+    color: #000; /* Màu chữ đen khi hover */
+    
+}
+
+/* Thêm border-radius cho góc của dropdown */
+.feature-box.last .dropdown-menu {
+    color: #000; /* Màu chữ đen */
+    background-color: #fff; /* Màu nền trắng */
+    border-radius: 8px; /* Thêm border-radius cho góc của dropdown */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+}
+
+/* Tăng kích thước biểu tượng user icon */
+.feature-box.last .dropdown-toggle .svg-inline--fa {
+    font-size: 1.2rem;
+}
+.d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .d-flex.align-items-center .ml-2 {
+    margin-left: 0.5rem; /* hoặc giá trị khoảng cách mong muốn */
+  }
+  .feature-box.last .dropdown-toggle {
+    background-color: transparent !important;
+    border: none !important;
+  }

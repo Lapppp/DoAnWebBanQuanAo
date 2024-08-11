@@ -1,0 +1,69 @@
+.product-images-container {
+  display: flex;
+}
+
+.product-image {
+  flex: 1;
+ 
+  margin-bottom:20px;
+}
+
+.product-full img {
+  
+  width: 100%;
+  height: auto;
+  
+}
+.product-font-size
+{
+  font-size:25px;
+}
+.rating {
+  color: #FFD700; /* Màu vàng hoặc màu khác */
+}
+.star {
+  font-size: 25px; /* Đặt kích thước của biểu tượng sao */
+}
+.star-content
+{
+  font-size: 20px;
+}
+.Image-Color
+{
+  width:60px;
+  height:50%;
+  
+}
+.Col-Image
+{
+  margin: 4px;
+}
+.Col-Image img
+{
+  border-radius: 5px;
+}
+.Col-Image img:hover
+{
+  border: 1px solid red;
+}
+.Col-Size
+{
+  margin: 5px;
+}
+.Image-Clicked {
+  border: 2px solid red; /* Đổi màu viền thành màu đỏ khi được click */
+}
+.btn-size
+{
+  width:60px;
+  height:50px;
+  background:#F6F6F6;
+  border-radius: 5px;
+  color:black;
+}
+.btn-size:hover
+{
+  background:#FFECB3;
+ 
+}
+

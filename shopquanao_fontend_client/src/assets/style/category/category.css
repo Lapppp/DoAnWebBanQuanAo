@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Phần tử h2 */
+h2 {
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Phần tử li trong ul.nav */
+ 
+  
+  /* Màu chữ khi hover */
+  .category-item:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+  .hoverCategory
+  {
+    font-size: 25px;
+  }
+  .hoverCategory:hover {
+    color: #ffeb3b;
+    cursor: pointer;
+  }
+ 

@@ -1,0 +1,19 @@
+/* Example CSS styles */
+.container {
+    margin-top: 20px;
+  }
+  
+  h5 {
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
